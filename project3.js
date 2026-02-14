@@ -1,15 +1,15 @@
 function setup() {
   createCanvas(1300, 1300);
-  background(100);
+  background("rgb(131,93,214)");
 }
 
 function draw() {
   //below
   noStroke(0);
-  fill(200, 0, 100);
+  fill("rgb(87,223,171)");
   ellipse(mouseX, mouseY, 75, 120);
 }
 
 function mousePressed(){
-  background(100)
+  background("rgb(131,93,214)")
 }
